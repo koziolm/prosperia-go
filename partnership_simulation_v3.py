@@ -8,8 +8,8 @@ import json
 # Core Simulation Parameters
 SIMULATION_YEARS = 5
 KSEF_YEAR_NEW_CLIENTS = 100  # Aggressive target for the first year
-ANNUAL_GROWTH_RATE = 0.30  # 30% increase in new client acquisition each year after Y1
-OPTIMA_PREFERENCE = 0.15 # 15% of new clients choose on-premise (Optima)
+ANNUAL_GROWTH_RATE = 0.20  # 30% increase in new client acquisition each year after Y1
+OPTIMA_PREFERENCE = 0.10 # 15% of new clients choose on-premise (Optima)
 ON_PREMISE_VS_CLOUD_PREFERENCE = 0.80 # 80% of Optima clients choose on-premise
 
 # Discount and Commission Data (from previous versions)
